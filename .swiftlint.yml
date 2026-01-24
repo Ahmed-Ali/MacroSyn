@@ -1,0 +1,15 @@
+disabled_rules: 
+  - line_length
+  - identifier_name
+  - unneeded_synthesized_initializer
+
+excluded: # paths or files to ignore during linting. Takes precedence over `included`.  
+  - "**/*/.build"
+  - Package.swift
+  - Tests
+  - "**/*/.swiftpm"
+
+strict: true
+
+
+reporter: "xcode" 

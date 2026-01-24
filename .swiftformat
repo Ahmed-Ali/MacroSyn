@@ -1,0 +1,42 @@
+# SwiftFormat configuration file
+
+--swiftversion 6.2
+--exclude **/.build/**, **/.swiftpm/**,
+
+# Indentation
+
+--indent 2
+--tabwidth 2
+--indentstrings false
+--indent-case true
+
+# Wrapping
+
+--maxwidth 120
+
+# Parantheses and Attributes
+
+--guard-else same-line
+--elseposition same-line
+--call-site-paren same-line
+
+# Ordering & Grouping
+
+--groupedextension true
+--importgrouping testable-bottom
+--importgrouping blank
+--importgrouping alphabetized
+
+# File header
+
+--header \n {file}\n\n Created by Ahmed Ali (github.com/Ahmed-Ali) on {created}.\n
+
+## Rules
+
+# Rules to enable
+
+--enable sortImports
+--disable trailingCommas
+--disable wrapMultilineStatementBraces
+--disable trailingClosures
+--disable unusedArguments
